@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mLiner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_label_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:text="当前定位城市"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_location_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_city"
+            android:clickable="false"
+            android:drawableLeft="@mipmap/city_img"
+            android:drawablePadding="4dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="广州"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="#F4F4F4"
+        android:gravity="left|center"
+        android:paddingLeft="20dp"
+        android:text="A"
+        android:textColor="#7E7B80"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/selector_btn_press"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="北京"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+</LinearLayout>
